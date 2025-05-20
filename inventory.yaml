@@ -1,0 +1,8 @@
+arch:
+  hosts:
+    localhost_podman:
+      ansible_host: 192.168.1.150
+  vars:
+    ansible_user: archie
+    ansible_port: 2022
+    ansible_password: haslo
